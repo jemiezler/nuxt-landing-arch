@@ -14,4 +14,16 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  app: {
+    baseURL: "/nuxt-landing-arch/", // Set GitHub Pages base URL
+  },
+  nitro: {
+    preset: "static", // 👈 Ensure Nuxt builds a static site
+    prerender: {
+      routes: ["/"], // 👈 Ensures the index page is generated
+    },
+  },
+  routeRules: {
+    "/**": { prerender: true }, // 👈 Ensures all routes are pre-generated
+  },
 });
