@@ -22,7 +22,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue/24/outline'
       </div>
     </div>
     <div class="relative w-6/10 ">
-      <NuxtImg src="../public/images/1.jpg" class="w-full h-full object-cover" />
+      <img src="/images/1.jpg" class="w-full h-full object-cover" />
       <button class="h-[50px] absolute bottom-0 left-0 p-4 uppercase bg-white">
         <div class="flex items-center space-x-2">
           <p>View Project</p>
@@ -37,7 +37,7 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue/24/outline'
   <div class="pages items-center justify-center">
     <div class="flex bg-[#FBFBFB] p-6 space-x-8">
       <div class="w-6/10 items-start justify-center">
-        <NuxtImg src="../public/images/1.jpg" class="w-full h-full object-cover" />
+        <img src="/images/1.jpg" class="w-full h-full object-cover" />
       </div>
       <div class="w-4/10 items-start flex flex-col justify-between">
         <div>
@@ -86,13 +86,13 @@ import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/vue/24/outline'
       <p class="text-6xl font-light" style="color: #bdbdbd;">Our Projects</p>
       <div class="grid grid-cols-2 gap-4">
         <div class="grid grid-cols-2 gap-4">
-          <NuxtImg src="/images/1.jpg" class="w-full h-full object-cover" />
-          <NuxtImg src="https://www.gstatic.com/webp/gallery/1.webp" class="w-full h-full object-cover" />
+          <img src="/images/1.jpg" class="w-full h-full object-cover" />
+          <img src="https://www.gstatic.com/webp/gallery/1.webp" class="w-full h-full object-cover" />
         </div>
         <div class="flex gap-4">
-          <NuxtImg src="https://www.gstatic.com/webp/gallery/3.webp" class="w-full h-full object-cover" />
-          <NuxtImg src="https://www.gstatic.com/webp/gallery/4.webp" class="w-full h-full object-cover" />
-          <NuxtImg src="https://www.gstatic.com/webp/gallery/5.webp" class="w-full h-full object-cover" />
+          <img src="https://www.gstatic.com/webp/gallery/3.webp" class="w-full h-full object-cover" />
+          <img src="https://www.gstatic.com/webp/gallery/4.webp" class="w-full h-full object-cover" />
+          <img src="https://www.gstatic.com/webp/gallery/5.webp" class="w-full h-full object-cover" />
         </div>
       </div>
 
