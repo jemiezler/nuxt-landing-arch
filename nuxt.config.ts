@@ -9,10 +9,11 @@ export default defineNuxtConfig({
       { name: 'Roboto', provider: 'google' },
     ],
   },
-  vite: {
-    plugins: [
-      tailwindcss(),
-    ],
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {},
+    },
   },
   nitro: {
     storage: {
