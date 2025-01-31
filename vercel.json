@@ -1,15 +1,14 @@
 {
     "rewrites": [
-      {
-        "source": "/next/:path*",
-        "destination": "/:path*"
-      },
-      {
-        "source": "/next",
-        "destination": "/next/"
-      }
+        {
+            "source": "/nuxt-landing-arch/:path*",
+            "destination": "/next/:path*"
+        },
+        {
+            "source": "/nuxt-landing-arch",
+            "destination": "/nuxt-landing-arch/"
+        }
     ],
     "cleanUrls": false,
     "trailingSlash": true
-  }
-  
+}
