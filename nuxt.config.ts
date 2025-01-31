@@ -14,10 +14,12 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
-  app: {
-    baseURL: "/nuxt-landing-arch/", // Set GitHub Pages base URL
-  },
   nitro: {
-    preset: "vercel",
-  },
+    storage: {
+      data: {
+        driver: 'vercelKV'
+        /* Vercel KV driver options */
+      }
+    }
+  }
 });
