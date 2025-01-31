@@ -1,0 +1,1 @@
+import r from"./DeILbCrz.js";import _ from"./PVPUfwHR.js";import{_ as c,o as s,c as a,b as e,a as p,F as m,I as d}from"./DwxWu7D3.js";import"./DjGzM0Kt.js";const l={},f={class:"pt-24"};function i(o,u){const t=r,n=_;return s(),a(d,null,[e(t),p("div",f,[m(o.$slots,"default")]),e(n)],64)}const k=c(l,[["render",i]]);export{k as default};
