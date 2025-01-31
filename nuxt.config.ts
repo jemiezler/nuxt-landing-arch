@@ -1,4 +1,3 @@
-import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
@@ -22,5 +21,10 @@ export default defineNuxtConfig({
         /* Vercel KV driver options */
       }
     }
-  }
+  }, app: {
+    baseURL: '/nuxt-landing-arch/'
+  },
+  vite: {
+    // Customize as needed
+  },
 });
