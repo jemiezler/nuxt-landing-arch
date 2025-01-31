@@ -27,4 +27,5 @@ export default defineNuxtConfig({
   vite: {
     // Customize as needed
   },
+
 });
