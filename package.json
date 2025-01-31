@@ -8,7 +8,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "nuxt generate && gh-pages -d .output/public"
+    "deploy": "nuxt build && gh-pages -d .output/public"
   },
   "dependencies": {
     "@heroicons/vue": "^2.2.0",
