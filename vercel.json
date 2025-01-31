@@ -1,22 +1,12 @@
-
 {
     "rewrites": [
       {
-        "source": "/nuxt-landing-arch/:path*",
-        "destination": "/next/:path*"
+        "source": "/next/:path*",
+        "destination": "/:path*"
       },
       {
-        "source": "/nuxt-landing-arch",
-        "destination": "/nuxt-landing-arch/"
-      }
-    ],
-    "routes": [
-      {
-        "handle": "filesystem"
-      },
-      {
-        "src": "/nuxt-landing-arch/(.*)",
-        "dest": "/nuxt-landing-arch/index.html"
+        "source": "/next",
+        "destination": "/next/"
       }
     ],
     "cleanUrls": false,
