@@ -10,6 +10,6 @@ definePageMeta({
 <template>
   <PagesHomeLanding />
   <PagesHomeAbout />
-  <!-- <PagesHomeMission /> -->
-  <!-- <PagesHomeProject />  -->
+  <PagesHomeMission />
+  <PagesHomeProject /> 
 </template>

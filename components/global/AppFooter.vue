@@ -1,6 +1,6 @@
 <template>
-    <footer class="w-full lg:grid grid-cols-3 gap-12 bg-[#2C2C2C] text-white p-16">
-        <div class="flex flex-col">
+    <footer class="w-full lg:flex  gap-12 bg-[#2C2C2C] text-white p-16">
+        <div class="flex flex-col flex-1">
             <p class="text-2xl font-bold">About</p>
             <p class="pt-4 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the
@@ -12,7 +12,7 @@
                 typesetting,
                 remaining essentially unchanged.</p>
         </div>
-        <div class="flex flex-col">
+        <div class="flex flex-col flex-1">
             <p class="text-2xl font-bold">About</p>
             <p class="pt-4 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the
@@ -24,7 +24,7 @@
                 typesetting,
                 remaining essentially unchanged.</p>
         </div>
-        <div class="flex flex-col">
+        <div class="flex flex-col flex-1">
             <p class="text-2xl font-bold">Social Media</p>
             <div class="flex space-x-4 pt-4">
                 <a href="#" class="text-2xl">

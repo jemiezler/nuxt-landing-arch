@@ -1,7 +1,7 @@
 <template>
     <SpeedInsights />
 
-    <div class="grid pt-24 min-w-screen min-h-screen">
+    <div class="flex flex-col pt-24 min-w-screen min-h-screen">
         <AppHeader />
         <slot />
         <AppFooter />
