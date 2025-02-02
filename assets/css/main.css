@@ -6,6 +6,29 @@
   --color-primary: #333333;
 }
 
+body {
+  @apply overflow-x-hidden overflow-y-auto;
+}
+
 .pages {
-  @apply flex w-full h-[calc(100dvh-6rem)] px-[8rem];
+  @apply w-full lg:h-[calc(100dvh-6rem)] lg:flex px-4  lg:px-[8rem];
+}
+
+.active {
+  @apply underline;
+}
+.exact-active {
+  @apply underline;
+}
+
+.slide-enter-active, .slide-leave-active {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+.slide-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+.slide-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
 }

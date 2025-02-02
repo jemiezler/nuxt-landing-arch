@@ -22,10 +22,12 @@ export default defineNuxtConfig({
       }
     }
   }, app: {
-    baseURL: '/nuxt-landing-arch/'
-  },
-  vite: {
-    // Customize as needed
-  },
-
+    baseURL: '/nuxt-landing-arch/',
+    layoutTransition: { name: 'layout-fade', mode: 'out-in' }
+  }, router: {
+    options: {
+      linkActiveClass: 'active',
+      linkExactActiveClass: 'exact-active'
+    }
+  }
 });
