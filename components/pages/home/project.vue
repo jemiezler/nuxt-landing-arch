@@ -14,9 +14,9 @@ const lowerImages = ref([
 </script>
 
 <template>
-  <div class="pages max-h-full flex-col space-y-4">
+  <div class="pages lg:flex-col max-h-full  space-y-4">
     <!-- Title -->
-    <p class="text-6xl font-light text-[#bdbdbd]">Our Projects</p>
+    <p class="text-5xl lg:text-6xl font-light text-[#bdbdbd]">Our Projects</p>
 
     <!-- Gallery Container -->
 
@@ -40,7 +40,7 @@ const lowerImages = ref([
      </div> -->
      
 
-    <div class="gallery-container">
+    <div class=" lg:gallery-container">
       <!-- Upper row (2 images) -->
       <!-- <div class="gallery-row gallery-upper">
         <div v-for="(img, index) in upperImages" :key="index" class="gallery-item w-1/2">
@@ -49,8 +49,8 @@ const lowerImages = ref([
       </div> -->
 
       <!-- Lower row (3 images) -->
-      <div class="gallery-row gallery-lower">
-        <div v-for="(img, index) in lowerImages" :key="index" class="gallery-item w-1/3">
+      <div class="space-y-4 lg:gallery-row lg:gallery-lower">
+        <div v-for="(img, index) in lowerImages" :key="index" class="lg:gallery-item lg:w-1/3">
           <img :src="img" class="gallery-image" />
         </div>
       </div>

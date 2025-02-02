@@ -11,5 +11,5 @@ definePageMeta({
   <PagesHomeLanding />
   <PagesHomeAbout />
   <PagesHomeMission />
-  <PagesHomeProject /> 
+  <!-- <PagesHomeProject />  -->
 </template>
