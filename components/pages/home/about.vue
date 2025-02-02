@@ -5,14 +5,14 @@ import { ArrowRightIcon } from '@heroicons/vue/24/outline';
 
 <template>
     <div class="pages images-background  items-center justify-center">
-        <div class="flex lg:bg-[#FBFBFB] p-6 space-x-8">
+        <div class="flex lg:bg-[#FBFBFB] p-6 lg:space-x-8">
             <div class="hidden lg:w-6/10 items-start justify-center">
                 <img src="/images/1.jpg" class="w-full h-full object-cover" />
             </div>
-            <div class="lg:w-4/10 items-start flex flex-col justify-between">
+            <div class="w-full lg:w-4/10 items-start flex flex-col justify-between">
                 <div>
-                    <p class="uppercase text-5xl lg:text-6xl font-light" style="color: #bdbdbd;">About</p>
-                    <p class="pt-4 font-light text-white lg:text-black">Lorem Ipsum is simply dummy text of the printing and typesetting
+                    <p class="w-full uppercase text-4xl lg:text-6xl font-light" style="color: #bdbdbd;">About</p>
+                    <p class="text-sm  lg:text-md pt-4 font-light text-white lg:text-black">Lorem Ipsum is simply dummy text of the printing and typesetting
                         industry. Lorem
                         Ipsum has been the
                         industry's
@@ -24,10 +24,10 @@ import { ArrowRightIcon } from '@heroicons/vue/24/outline';
                         remaining essentially unchanged.</p>
                 </div>
 
-                <button class="h-[50px] mt-8 ld:mt-0 bottom-0 left-0 p-4 uppercase bg-white">
+                <button class="h-[35px] lg:h-[50px] mt-8 ld:mt-0 bottom-0 left-0 px-2 lg:px-4 lg:py-4 uppercase bg-white">
                     <div class="flex items-center space-x-2">
-                        <p>View Project</p>
-                        <ArrowRightIcon class="size-6" />
+                        <p class="text-sm  lg:text-md">View Project</p>
+                        <ArrowRightIcon class="size-4 lg:size-6" />
                     </div>
                 </button>
             </div>

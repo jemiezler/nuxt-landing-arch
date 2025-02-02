@@ -1,8 +1,8 @@
 <template>
     <footer class="w-full lg:flex  gap-12 bg-[#2C2C2C] text-white p-16 space-y-8">
         <div class="flex flex-col flex-1">
-            <p class="text-2xl font-bold">About</p>
-            <p class="pt-4 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            <p class="text-xl lg:text-2xl font-bold">About</p>
+            <p class="text-sm lg:text-md pt-4 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the
                 industry's
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
@@ -13,8 +13,8 @@
                 remaining essentially unchanged.</p>
         </div>
         <div class="flex flex-col flex-1">
-            <p class="text-2xl font-bold">About</p>
-            <p class="pt-4 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+            <p class="text-xl lg:text-2xl font-bold">Column 2</p>
+            <p class="text-sm lg:text-md pt-4 font-light">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
                 Ipsum has been the
                 industry's
                 standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it
@@ -25,7 +25,7 @@
                 remaining essentially unchanged.</p>
         </div>
         <div class="flex flex-col flex-1">
-            <p class="text-2xl font-bold">Social Media</p>
+            <p class="text-xl lg:text-2xl font-bold">Social Media</p>
             <div class="flex space-x-4 pt-4">
                 <a href="#" class="text-2xl">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
